@@ -1,0 +1,12 @@
+
+<p><% if @answer.include?("?") %>
+      <% return "Silly question, get dressed and go to work!." %>
+    <% elsif @answer == "I am going to work" %>
+      <% return "Great!." %>
+    <% else %>
+      <% return "I don't care, get dressed and go to work!."%>
+    <% end %>
+
+</p>
+
+<p>your coach</p>
